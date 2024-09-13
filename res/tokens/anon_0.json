@@ -1,0 +1,26 @@
+{
+    "uid": "",
+    "displayName": null,
+    "photoURL": null,
+    "email": null,
+    "emailVerified": false,
+    "phoneNumber": null,
+    "isAnonymous": true,
+    "tenantId": null,
+    "providerData": [],
+    "apiKey": "",
+    "appName": "[DEFAULT]",
+    "authDomain": null,
+    "stsTokenManager": {
+        "apiKey": "",
+        "refreshToken": "",
+        "accessToken": "",
+        "expirationTime": 0
+    },
+    "redirectEventId": null,
+    "lastLoginAt": "0",
+    "createdAt": "0",
+    "multiFactor": {
+        "enrolledFactors": []
+    }
+}

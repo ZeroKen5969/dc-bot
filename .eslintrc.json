@@ -1,0 +1,23 @@
+{
+    "extends": ["eslint:recommended"],
+    "plugins": ["unused-imports"],
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi-spacing": "error",
+        "semi": "error",
+        "unused-imports/no-unused-imports-ts": "error",
+        "no-unused-vars": ["off"],
+        "no-empty": "off",
+        "no-case-declarations": "off",
+        "no-undef": "off",
+        "no-control-regex": "off"
+    }
+}

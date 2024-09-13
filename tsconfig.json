@@ -1,0 +1,28 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "compilerOptions": {
+        "incremental": true,
+        "outDir": "./built",
+        "skipLibCheck": true,
+        "noImplicitThis": true,
+        "moduleResolution": "node",
+        "allowJs": true,
+        // "noEmit": true,
+        "noEmitOnError": true,
+        "strict": false,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2021",
+        "removeComments": true,
+        "module": "UMD"
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "built"
+    ],
+}
